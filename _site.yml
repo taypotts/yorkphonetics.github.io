@@ -1,9 +1,14 @@
-name: "my-website"
+name: "York Phonetics"
 output_dir: "."
 navbar:
-  title: "My Website"
+  title: "York Phonetics"
   left:
     - text: "Home"
       href: index.html
     - text: "About"
       href: about.html
+output:
+  html_document:
+    css: style.css
+    theme: readable
+    highlight: textmate
