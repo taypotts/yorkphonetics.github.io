@@ -7,8 +7,3 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
-output:
-  html_document:
-    css: style.css
-    theme: readable
-    highlight: textmate
