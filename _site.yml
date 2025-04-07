@@ -13,7 +13,7 @@ navbar:
       href: facilities.html
     - text: "Contact"
       href: contact.html
-      
+
 output:
   html_document:
     css: style.css
