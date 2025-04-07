@@ -5,9 +5,15 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-    - text: "About"
+    - text: "People"
       href: about.html
     - text: "Calendar"
       href: calendar.html
     - text: "Facilities"
       href: facilities.html
+    - text: "Contact"
+      href: contact.html
+      
+output:
+  html_document:
+    css: style.css
