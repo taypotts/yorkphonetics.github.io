@@ -1,5 +1,10 @@
 ---
 title: "Facilities"
-output: html_document
+output:
+  html_document:
+    includes:
+      after_body: footer.html
 ---
-
+ 
+* Information can go here!
+  + With bullet points...

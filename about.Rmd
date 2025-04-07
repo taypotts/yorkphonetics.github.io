@@ -1,5 +1,9 @@
 ---
 title: "People"
+output:
+  html_document:
+    includes:
+      after_body: footer.html
 ---
 
 People who are involved can go here!

@@ -1,5 +1,24 @@
 ---
 title: "Calendar"
-output: html_document
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Calendar}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
 ---
+```{r include = FALSE}
+knitr::opts_chunk$set(echo=FALSE)
+```
 
+```{r setup}
+library(toastui)
+```
+
+```{r monthly}
+calendar(cal_demo_data(), navigation = TRUE, defaultDate = Sys.Date()) %>%
+  cal_month_options(
+    startDayOfWeek  = 1, 
+    narrowWeekend = TRUE
+  ) %>% 
+  cal_props(cal_demo_props())
+```
