@@ -5,6 +5,8 @@ output:
     includes:
       after_body: footer.html
 ---
-Below is an interactive calendar where you can book a timeslot to use the lab.
+Below is a calendar displaying the currently booked sessions to use the Phonetics Lab. 
 
-<iframe src="https://calendar.google.com/calendar/embed?src=polopploop%40gmail.com&ctz=America%2FToronto" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+If you would like to book a timeslot, follow the link [here](https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ1ItYDvjorBEVpqlTp-dzb8Frk3NIuCjTUGedayJf_ltZqjO6rKiiGU7IkNJUh_E3QQXhqCo5LS) and book a slot!
+
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FToronto&showPrint=0&title=Phonetics%20Lab%20Timeslots&src=eW9ya3Bob25ldGljc3N0dWRpb0BnbWFpbC5jb20&color=%237CB342" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>

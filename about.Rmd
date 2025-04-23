@@ -6,4 +6,8 @@ output:
       after_body: footer.html
 ---
 
-People who are involved can go here!
+### Faculty
+
+[Chandan Narayan](https://ch-narayan.github.io/) (Associate Professor at York) <br>
+[Thomas Kettig](https://tkettig.github.io/) (Associate Professor at York) <br>
+[Emily Elfner](https://emilyelfner.info.yorku.ca/about/) (Associate Professor at York)
