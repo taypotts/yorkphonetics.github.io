@@ -1,24 +1,10 @@
 ---
 title: "Calendar"
-output: rmarkdown::html_vignette
-vignette: >
-  %\VignetteIndexEntry{Calendar}
-  %\VignetteEngine{knitr::rmarkdown}
-  %\VignetteEncoding{UTF-8}
+output:
+  html_document:
+    includes:
+      after_body: footer.html
 ---
-```{r include = FALSE}
-knitr::opts_chunk$set(echo=FALSE)
-```
+Below is an interactive calendar where you can...
 
-```{r setup}
-library(toastui)
-```
-
-```{r monthly}
-calendar(cal_demo_data(), navigation = TRUE, defaultDate = Sys.Date()) %>%
-  cal_month_options(
-    startDayOfWeek  = 1, 
-    narrowWeekend = TRUE
-  ) %>% 
-  cal_props(cal_demo_props())
-```
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FToronto&hl=en_GB&title=Phonetics%20Lab%20-%20Ross%20S114&showPrint=0&src=YjkyODE3YjhkODRiMDIxNzViNDllY2ZhMjNhNGFkZjMzM2NhYTlkNDIzMWFjYjAyZTkxOGJjZDFmYWIwMWY0NEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4tZ2IuY2FuYWRpYW4jaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23AD1457&color=%230B8043" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
