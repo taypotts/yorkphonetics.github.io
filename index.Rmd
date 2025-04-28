@@ -6,4 +6,6 @@ output:
       after_body: footer.html
 ---
 
-This can be where the introduction paragraph for the website can go!
+Welcome to the page for the Phonetics Lab at York University! 
+
+<br> This is a specialized area on campus where students can conduct research regarding acoustic analysis of spoken language and speech perception. Our lab and its equipment are used by students from multiple programs including Linguistics, Psychology, and Cognitive Science here at York. 
